@@ -1,9 +1,0 @@
-version: '3.3'
-services:
-    gds_py:
-        image: 'darribas/gds_py:6.1'
-        ports:
-            - '8888:8888'
-        volumes:
-            - './share:/home/jovyan/work'
-        
